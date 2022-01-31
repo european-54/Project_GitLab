@@ -1,0 +1,3 @@
+B
+     о­a5  г               @   sF   d dl mZ d dlmZmZ dd„ Zdd„ ZeegZeѓ eѓ dњZdS )	й    )Ъdate)ЪIndexЪAboutc             C   s   t  Ў | d< d S )Nr   )r   Ъtoday)Ъrequest© r   хЖ   D:\РљСѓСЂСЃС‹ GeekBrains. 2022\РђСЂС…РёС‚РµРєС‚СѓСЂР° Рё С€Р°Р±Р»РѕРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ РЅР° Python\РЈСЂРѕРє_2\РЈСЂРѕРє 2. РџСЂРёРјРµСЂ РїСЂР°РєС‚РёС‡РµСЃРєРѕРіРѕ Р·Р°РґР°РЅРёСЏ\urls.pyЪsecret_front   s    r	   c             C   s   d| d< d S )NЪkeyr   )r   r   r   r   Ъother_front
+   s    r   )ъ/z/about/N)	Ъdatetimer   Zviewsr   r   r	   r   ЪfrontsЪroutesr   r   r   r   Ъ<module>   s   

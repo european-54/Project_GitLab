@@ -1,0 +1,24 @@
+B
+    Ћн­aЗ	  г               @   s    G d d„ dѓZ G dd„ dѓZdS )c               @   s*   e Zd Zeedњdd„ѓZedd„ ѓZdS )ЪGetRequests)Ъdatac             C   s:   i }| r6|   dЎ}x"|D ]}|  dЎ\}}|||< qW |S )Nъ&ъ=)Ъsplit)r   ЪresultЪparamsЪitemЪkЪv© r   хЪ   D:\РљСѓСЂСЃС‹ GeekBrains. 2022\РђСЂС…РёС‚РµРєС‚СѓСЂР° Рё С€Р°Р±Р»РѕРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ РЅР° Python\РЈСЂРѕРє_2\РЈСЂРѕРє 2. РџСЂРёРјРµСЂ РїСЂР°РєС‚РёС‡РµСЃРєРѕРіРѕ Р·Р°РґР°РЅРёСЏ\simba_framework\requests.pyЪparse_input_data   s    
+
+zGetRequests.parse_input_datac             C   s   | d }t  |Ў}|S )NЪQUERY_STRING)r   r
+   )ЪenvironZquery_stringЪrequest_paramsr   r   r   Ъget_request_params   s    
+zGetRequests.get_request_paramsN)Ъ__name__Ъ
+__module__Ъ__qualname__ЪstaticmethodЪstrr
+   r   r   r   r   r   r      s   r   c               @   sH   e Zd Zeedњdd„ѓZeedњdd„ѓZeedњdd	„Z	d
+d„ Z
+dS )
+ЪPostRequests)r   c             C   s:   i }| r6|   dЎ}x"|D ]}|  dЎ\}}|||< qW |S )Nr   r   )r   )r   r   r   r   r	   r
+   r   r   r   r
+      s    
+
+zPostRequests.parse_input_data)Ъreturnc             C   s@   |   dЎ}|rt|ѓnd}t|ѓ |dkr8| d  |Ўnd}|S )NЪCONTENT_LENGTHй    z
+wsgi.inputу    )ЪgetЪintЪprintЪread)ЪenvZcontent_length_dataЪcontent_lengthr   r   r   r   Ъget_wsgi_input_data(   s
+    
+z PostRequests.get_wsgi_input_data)r   r   c             C   s0   i }|r,|j ddЌ}td|› ќѓ |  |Ў}|S )Nzutf-8)Ъencodingu%   СЃС‚СЂРѕРєР° РїРѕСЃР»Рµ РґРµРєРѕРґ - )Ъdecoder   r
+   )Ъselfr   r   Zdata_strr   r   r   Ъparse_wsgi_input_data7   s    
+z"PostRequests.parse_wsgi_input_datac             C   s   |   |Ў}|  |Ў}|S )N)r"   r&   )r%   r   r   r   r   r   r   A   s    
+
+zPostRequests.get_request_paramsN)r   r   r   r   r   r
+   Ъbytesr"   Ъdictr&   r   r   r   r   r   r      s   
+r   N)r   r   r   r   r   r   Ъ<module>   s   

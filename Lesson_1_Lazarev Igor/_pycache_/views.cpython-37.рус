@@ -1,0 +1,8 @@
+B
+    а·aQ  г               @   s,   d dl mZ G dd„ dѓZG dd„ dѓZdS )й    )Ъrenderc               @   s   e Zd Zdd„ ZdS )ЪIndexc             C   s   dt d| dd ЎdЌfS )Nz200 OKz
+index.htmlЪdate)r   )r   Ъget)ЪselfЪrequest© r   хЗ   I:\РљСѓСЂСЃС‹ GeekBrains. 2022\РђСЂС…РёС‚РµРєС‚СѓСЂР° Рё С€Р°Р±Р»РѕРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ РЅР° Python\РЈСЂРѕРє_2\РЈСЂРѕРє 2. РџСЂРёРјРµСЂ РїСЂР°РєС‚РёС‡РµСЃРєРѕРіРѕ Р·Р°РґР°РЅРёСЏ\views.pyЪ__call__   s    zIndex.__call__N)Ъ__name__Ъ
+__module__Ъ__qualname__r
+   r   r   r   r	   r      s   r   c               @   s   e Zd Zdd„ ZdS )ЪAboutc             C   s   dS )N)z200 OKZaboutr   )r   r   r   r   r	   r
+      s    zAbout.__call__N)r   r   r
+   r
+   r   r   r   r	   r   	   s   r   N)Zsimba_framework.templatorr   r   r   r   r   r   r	   Ъ<module>   s   
